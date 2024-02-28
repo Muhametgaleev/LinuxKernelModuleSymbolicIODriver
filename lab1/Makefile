@@ -17,5 +17,9 @@ remove: clean
 	sudo rmmod ch_drv
 
 test:
-	sudo echo "YaYaYa" > /dev/mychdev
+	sudo echo "10&6" > /dev/mychdev
+	sudo cat /dev/mychdev
+	sudo echo "5|6" > /dev/mychdev
+	sudo cat /dev/mychdev
+	sudo echo "5^6" > /dev/mychdev
 	sudo cat /dev/mychdev
