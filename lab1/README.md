@@ -17,9 +17,13 @@
 
 * echo "5&6" > /dev/mychdev
 * cat /dev/mychdev
+
+
   ![img.png](img.png)
 
 ## Примеры использования
 * make clean - вынуть драйвер из ядра
 * make test - загрузить тестовые данные
+
+
   ![img.png](img.png)
