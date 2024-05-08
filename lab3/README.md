@@ -62,7 +62,7 @@ make clean
         valid_lft forever preferred_lft forever
 
 
-    echo "test_packet" | nc -u <ip_addr> <port>
+    echo "test_packet" | nc -u 192.168.1.156 2222
 
     dmesg
         Captured UDP datagram, saddr: 192.168.1.244
