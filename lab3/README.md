@@ -65,25 +65,42 @@ make clean
     echo "test_packet" | nc -u <ip_addr> <port>
 
     dmesg
-        [  131.532871] lab3: no symbol version for module_layout
-        [  131.548925] Module lab3 loaded
-        [  131.548937] lab3: create link vni0
-        [  131.548942] lab3: registered rx handler for eth0
-        [  131.653860] IPv6: ADDRCONF(NETDEV_UP): vni0: link is not ready
-        [  131.654178] vni0: device opened
-        [  131.718161] Captured UDP datagram, saddr: 0.0.0.0
-        [  131.718171] daddr: 0.0.0.0
-        [  131.758183] Captured UDP datagram, saddr: 0.0.0.0
-        [  131.758193] daddr: 0.0.0.0
-        [  132.668152] Captured UDP datagram, saddr: 0.0.0.0
-        [  132.668176] daddr: 0.0.0.0
-        [  132.728190] Captured UDP datagram, saddr: 0.0.0.0
-        [  132.728201] daddr: 0.0.0.0
-        [  132.808205] Captured UDP datagram, saddr: 0.0.0.0
-        [  132.808215] daddr: 0.0.0.0
-        [  133.468189] Captured UDP datagram, saddr: 0.0.0.0
-        [  133.468200] daddr: 0.0.0.0
-        [  133.788154] Captured UDP datagram, saddr: 0.0.0.0
-        [  133.788165] daddr: 0.0.0.0
+        Captured UDP datagram, saddr: 192.168.1.244
+    [  998.888955] daddr: 224.0.0.251
+    [  999.054029] Captured UDP datagram, saddr: 192.168.1.156
+    [  999.054039] daddr: 192.168.1.1
+    [  999.054201] Captured UDP datagram, saddr: 192.168.1.156
+    [  999.054209] daddr: 192.168.1.1
+    [ 1000.554025] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1000.554035] daddr: 192.168.1.1
+    [ 1001.104682] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1001.104708] daddr: 224.0.0.251
+    [ 1001.104787] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1001.104800] daddr: 224.0.0.251
+    [ 1001.603029] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1001.603054] daddr: 224.0.0.251
+    [ 1002.106794] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1002.106819] daddr: 224.0.0.251
+    [ 1002.106889] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1002.106901] daddr: 224.0.0.251
+    [ 1003.054038] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1003.054048] daddr: 192.168.1.1
+    [ 1003.054210] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1003.054218] daddr: 192.168.1.1
+    [ 1003.315099] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1003.315108] daddr: 192.168.1.1
+    [ 1003.315167] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1003.315174] daddr: 192.168.1.1
+    [ 1004.107412] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1004.107437] daddr: 224.0.0.251
+    [ 1004.107515] Captured UDP datagram, saddr: 192.168.1.244
+    [ 1004.107527] daddr: 224.0.0.251
+    [ 1004.304035] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1004.304044] daddr: 192.168.1.1
+    [ 1004.304202] Captured UDP datagram, saddr: 192.168.1.156
+    [ 1004.304211] daddr: 192.168.1.1
+    [ 1004.408142] Captured UDP datagram, saddr: 192.168.1.236
+    [ 1004.408165] daddr: 192.168.1.156
+
 
     

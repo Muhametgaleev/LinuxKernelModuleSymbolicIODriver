@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ip.h": "c",
+        "udp.h": "c"
+    }
+}
