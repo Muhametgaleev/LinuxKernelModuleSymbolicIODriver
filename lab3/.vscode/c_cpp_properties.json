@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/src/**",
+                "/usr/src/linux-hwe-5.15-headers-5.15.0-102/include/net/**",
+                "/usr/src/linux-hwe-5.15-headers-5.15.0-105/**",
+                "/usr/src/linux-hwe-5.15-headers-5.15.0-102/include/net/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
